@@ -1,16 +1,29 @@
-# This is a sample Python script.
+from tkinter import *
+from tkinter.colorchooser import askcolor
+from tkinter import ttk
+import tkinter as tk
+from tkinter import filedialog
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+root=Tk()
+root.title("WHITE BOARD")
+root.geometry("1050x570+150+50")
+root.config(bg="#f2f3f5")
+root.resizable(False,False)
+
+#icon
+image_icon = PhotoImage(file="img/logo.png")
+root.iconphoto(False,image_icon)
+
+##sidebar
+color_box = PhotoImage(file="img/section.png")
+Label(root,image=color_box,bg="#f2f3f5").place(x=10,y=30)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+##main screen
+canvas = Canvas(root,width=930,height=500,background="white",cursor="hand2")
+canvas.place(x=100,y=30)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+root.mainloop()
