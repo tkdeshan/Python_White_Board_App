@@ -1,3 +1,3 @@
 # Python_White_Board
 
-![Capture](https://github.com/tkdeshan/Python_White_Board/assets/100216231/191bd058-bc0f-43c8-a941-c8ffbcb6993c)
+![Capture](https://github.com/tkdeshan/Python_White_Board/assets/100216231/1bc46b1e-8ec4-4019-b557-f6f9a6edefb3)
